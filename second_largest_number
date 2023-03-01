@@ -1,6 +1,6 @@
 if __name__ == '__main__':
     n = int(input("enter"))
-    arr = map(int, input().split())
+    arr = map(int, input("enter the array").split())
     arr=sorted(arr,reverse=True)
     runner_up_score=None
     for score in arr:
