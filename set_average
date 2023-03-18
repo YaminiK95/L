@@ -1,0 +1,12 @@
+def average(array):
+    # your code goes here
+    su=set(arr)
+    a=sum(su)/len(su)
+    roun=round(a,3)
+    return roun
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
