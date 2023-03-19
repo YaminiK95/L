@@ -1,0 +1,6 @@
+N=int(input())
+s=set()
+for i in range(N):
+    c=input()
+    s.add(c)
+print(len(s))
