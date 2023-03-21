@@ -1,0 +1,9 @@
+M=int(input())
+seta=set(map(int,input().split()))
+N=int(input())
+setb=set(map(int,input().split()))
+m=seta.difference(setb)
+n=setb.difference(seta)
+o=m.union(n)
+for i in sorted(o):
+    print(i)
