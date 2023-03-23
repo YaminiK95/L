@@ -1,0 +1,7 @@
+from itertools import product
+a=set(map(int,input().split()))
+b=set(map(int,input().split()))
+li=(a,b)
+output_list=list(product(*li))
+output=' '.join(map(str, output_list))
+print(output)
