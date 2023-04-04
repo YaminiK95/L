@@ -1,0 +1,11 @@
+from collections import Counter
+x=int(input())
+m=Counter(map(int,input().split()))
+N=int(input())
+earned=0
+for i in range(N):
+    size,price=map(int,input().split())
+    if (m[size]):
+        earned+=price
+        m[size]-=1
+print(earned)
